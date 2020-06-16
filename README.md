@@ -14,6 +14,7 @@ So there is an easy project contains model training and model converter.
 
 
 ## pretrained model , and preformance
+ps if you want to check a better implement, switch to tmp branch, there is ciou loss, giouloss, and gaussian heatmap according to ttfnet net. With same model architecturecan , it can achieve better map on mscoco. 
 
 ### mscoco
 
@@ -186,6 +187,11 @@ I have carefully processed the postprocess, and it can works within the model, s
         `python visualization/vis_with_coreml.py --coreml_model centernet.mlmodel --imgDir 'your image dir'`
 
 ps, if you want to do quantization, please reffer to the official doc, it is easy.
+
+
+### Reference
+Centernet
+TTFnet
 
 ### TODO: 
 - [ ] Android project.
